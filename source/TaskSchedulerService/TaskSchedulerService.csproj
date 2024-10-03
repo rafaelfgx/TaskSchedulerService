@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <ItemGroup>
+        <PackageReference Include="Hangfire.AspNetCore" />
+        <PackageReference Include="Hangfire.InMemory" />
+    </ItemGroup>
+    <ItemGroup>
+        <Using Include="TaskSchedulerService" />
+        <Using Include="Hangfire" />
+    </ItemGroup>
+</Project>
