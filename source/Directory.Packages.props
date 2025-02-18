@@ -1,0 +1,12 @@
+<Project>
+    <PropertyGroup>
+        <EnablePackageVersionOverride>false</EnablePackageVersionOverride>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageVersion Include="Hangfire.AspNetCore" Version="1.8.18" />
+        <PackageVersion Include="Hangfire.InMemory" Version="1.0.0" />
+        <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+</Project>
